@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+
+.env
+.env.*
+
+.vscode/
+.idea/
+
+*.log
+
+*.csv
+*.parquet
+
+# Large/binary dependencies
+*.nar
+*.jar
+*.avro
+
+# NiFi backups/config
+*.backup
+nifi-conf-backup/
+nifi-hadoop-conf/
